@@ -304,6 +304,8 @@ swapoff -a
 cd /root
 git clone https://github.com/spf913/spf913-depend.git
 cd spf913-depend
+curl -L https://www.dropbox.com/s/4tweyucolu83i2v/marathon.tar.gz -o marathon.tar.gz && \
+curl -L https://www.dropbox.com/s/wk5jcmfs2zzkn31/mesos.tar.gz -o mesos.tar.gz && \
 tar -zxvf marathon.tar.gz && \
 tar -zxvf mesos.tar.gz
 
